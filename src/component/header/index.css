@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6dca26;
+    color: #fff;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.logo {
+    height: 40px; /* adjust as needed */
+}
+
+.navbar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-nav ul li button.active {
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #6dca26; /* matching the navbar background */
+    transition: background-color 0.3s ease, color 0.3s ease; /* adding transition */
+}
+
+.navbar-nav ul li button.active:hover {
+    background-color: #e6e6e6; /* lighter background on hover */
+}
